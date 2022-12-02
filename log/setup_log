@@ -1,0 +1,6 @@
+trainX: (2555, 15, 135), trainY: (2555, 1, 135), trainTE: (2555, 16, 2)
+valX: (627, 15, 135), valY: (627, 1, 135), valTE: (627, 16, 2)
+testX: (788, 15, 135), testY: (788, 1, 135), testTE: (788, 16, 2)
+Data loaded
+Namespace(Pre_len=1, TCN_layers=4, Windows_size=15, batch_size=64, channels=8, column_normal=0, device='cuda:0', dilation=1, earlystop=70, embed_dim=40, epoch=500, gat_feature=20, gat_true=True, gc_head_dim=8, gc_heads=8, gdep=2, head_dim=8, heads=8, input_shuffle=False, is_normal=0, learning_rate=0.01, log_file='./log/setup_log', model_save_path='G:/MYPAPER/Second_Paper/', nheads=1, num_edges=10, patience=10, shuffle=False, sst_file='G:/MYPAPER/Second_Paper/Bo_Hai.csv', step_size=100, tanhalpha=3, test_ratio=0.2, train_ratio=0.8, vaild_ratio=0.2)
+95490
